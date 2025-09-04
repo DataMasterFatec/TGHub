@@ -6,10 +6,9 @@
 ---
 
 ### 📄 Contexto do Desafio
-- **Tema do semestre:** *Produto sem contexto* (CRUD desktop) com **modelagem de BD relacional**; a **primeira entrega não envolve acesso a BD**. Tecnologias ensinadas contam como **requisitos não funcionais**. [oai_citation:2‡Desafio do Parceiro Academico 2BD - Interno (2).pdf](file-service://file-HyU7AeZfeoMMcQ8w4vxGeY)
-- **Tecnologias avaliadas:** **Java Desktop + JDBC**, **BD relacional**, **Git**. [oai_citation:3‡Desafio do Parceiro Academico 2BD - Interno (2).pdf](file-service://file-HyU7AeZfeoMMcQ8w4vxGeY)
-- **Problema a resolver:** atrasos e perda de mensagens entre aluno e orientador; dificuldade em manter **histórico de correções e versões**; necessidade de gerar **TG final em Markdown (MD)**. [oai_citation:4‡Desafio do Parceiro Academico 2BD - Interno (2).pdf](file-service://file-HyU7AeZfeoMMcQ8w4vxGeY)
-
+- **Tema do semestre:** *Produto sem contexto* (CRUD desktop) com **modelagem de BD relacional**; a **primeira entrega não envolve acesso a BD**. Tecnologias ensinadas contam como **requisitos não funcionais**. 
+- **Tecnologias avaliadas:** **Java Desktop + JDBC**, **BD relacional**, **Git**. 
+- **Problema a resolver:** atrasos e perda de mensagens entre aluno e orientador; dificuldade em manter **histórico de correções e versões**; necessidade de gerar **TG final em Markdown (MD)**. 
 ---
 
 ## 👥 Equipe
