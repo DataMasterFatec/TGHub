@@ -38,7 +38,7 @@ Centralizar informações de TG (dados, entregas, histórico, feedbacks e commit
 - **Comunicação e Interação** (chat, mensagens, histórico)
 - **Integração com Git** (versionamento, histórico)
 - **Relatórios e Histórico** (andamento, feedbacks, entregas)
-- **Configurações** (permissões, exportações etc.) [oai_citation:7‡Backlog_Gestao_TG.pdf](file-service://file-UsY2Pf5E63vkR57poAZwQj)
+- **Configurações** (permissões, exportações etc.) 
 
 ---
 
