@@ -6,7 +6,7 @@
 ---
 
 ### 📄 Contexto do Desafio
-- **Tema do semestre:** *Produto sem contexto* (CRUD desktop) com **modelagem de BD relacional**; a **primeira entrega não envolve acesso a BD**. Tecnologias ensinadas contam como **requisitos não funcionais**. 
+- **Tema do semestre:** *Produto entrega de TG* (CRUD desktop) com **modelagem de BD relacional**; a **primeira entrega não envolve acesso a BD**. Tecnologias ensinadas contam como **requisitos não funcionais**. 
 - **Tecnologias avaliadas:** **Java Desktop + JDBC**, **BD relacional**, **Git**. 
 - **Problema a resolver:** atrasos e perda de mensagens entre aluno e orientador; dificuldade em manter **histórico de correções e versões**; necessidade de gerar **TG final em Markdown (MD)**. 
 ---
@@ -27,7 +27,7 @@
 ---
 
 ## 🎯 Objetivo
-Centralizar informações de TG (dados, entregas, histórico, feedbacks e commits), reduzindo atritos de comunicação e melhorando a rastreabilidade da evolução do trabalho. [oai_citation:6‡Backlog_Gestao_TG.pdf](file-service://file-UsY2Pf5E63vkR57poAZwQj)
+Centralizar informações de TG (dados, entregas, histórico, feedbacks e commits), reduzindo atritos de comunicação e melhorando a rastreabilidade da evolução do trabalho.
 
 ---
 
@@ -143,7 +143,7 @@ Centralizar informações de TG (dados, entregas, histórico, feedbacks e commit
 ---
 
 ## 🛠️ Tecnologias
-- **Java**
+- **Java (versão LTS – garantindo suporte estendido e estabilidade para o projeto)**
 - **Javafx**
 - **IntelliJ IDEA**
 - **Scene Builder**
