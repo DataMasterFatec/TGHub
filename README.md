@@ -139,8 +139,8 @@ Realizar o **levantamento de requisitos** e produzir os **wireframes iniciais**,
 ---
 
 ## 🛠️ Tecnologias
-- ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png)           ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)          ![Git](https://img.icons8.com/color/48/git.png) 
-- ![IntelliJ IDEA](https://img.icons8.com/color/48/intellij-idea.png)         ![Jira](https://img.icons8.com/color/48/jira.png)                 ![Discord](https://img.icons8.com/color/48/discord-logo.png)
+- ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) &nbsp;   &nbsp;      ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)  &nbsp;  &nbsp;      ![Git](https://img.icons8.com/color/48/git.png) 
+- ![IntelliJ IDEA](https://img.icons8.com/color/48/intellij-idea.png) &nbsp;    &nbsp;    ![Jira](https://img.icons8.com/color/48/jira.png) &nbsp; &nbsp;               ![Discord](https://img.icons8.com/color/48/discord-logo.png)
 
 
 ---
