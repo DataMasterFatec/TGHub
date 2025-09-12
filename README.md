@@ -105,15 +105,17 @@ Realizar o **levantamento de requisitos** e produzir os **wireframes iniciais**,
 
 
 ## 📊 Status Board (Scrum)
-| Item | Tarefa | Status |
-|------|--------|--------|
-| 1 | Levantar requisitos funcionais e não funcionais | To Do |
-| 2 | Mapear usuários e criar personas | To Do |
-| 3 | Definir objetivos principais do sistema/produto | To Do |
-| 4 | Criar fluxos de navegação macro | To Do |
-| 5 | Criar wireframes de baixa fidelidade | To Do |
-| 6 | Validar wireframes com stakeholders | To Do |
-| 7 | Documentar requisitos funcionais iniciais | To Do |
+| Item | Tarefa | Prioridade |Status |
+|------|--------|--------|--------|
+| 1 | Levantar requisitos funcionais e não funcionais | - |To Do |
+| 2 | Mapear usuários e criar personas | - |To Do |
+| 3 | Definir objetivos principais do sistema/produto | - |To Do |
+| 4 | Criar fluxos de navegação macro | - |To Do |
+| 5 | Criar wireframes de baixa fidelidade | - |To Do |
+| 6 | Validar wireframes com stakeholders | - |To Do |
+| 7 | Modelagem conceitual do Banco de dados | - |To Do |
+| 8 | Documentar requisitos funcionais iniciais | - |To Do |
+
 
 ---
 
