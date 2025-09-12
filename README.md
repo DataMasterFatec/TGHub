@@ -72,55 +72,55 @@ Centralizar informações de TG (dados, entregas, histórico, feedbacks e commit
 ## ✅ Critérios de Aceitação (Definition of Ready – DoR)
 > Estrutura de User Story + Critérios de Aceitação conforme **Guia de Artefatos** (3Cs, DoR/DoD). 
 
-### US01 – Cadastro de orientadores (Must)
-- Inserir **nome**, **e-mail** e **matrícula/ID** do orientador.
-- **Validar obrigatórios** (não salvar em branco).
-- **Persistir** no BD relacional (JDBC).
-- Exibir orientador em **lista** após salvar.
+# 📌 Sprint Backlog – Sprint 1
 
-### US02 – Cadastro de orientados (Must)
-- Inserir **nome**, **RA** e **curso**.
-- **Validar obrigatórios**.
-- **Vincular orientador** no cadastro ou depois.
-- **Persistir** no BD relacional.
-
-### US05 – Cadastro de informações do TG (Must)
-- Inserir **título**, **resumo** e **orientador vinculado**.
-- Registrar **data de cadastro**.
-- **Permitir atualizar** enquanto não finalizado.
-- Orientador **visualiza** TG do aluno.
-
-### US08 – Upload de entregas do TG (Must)
-- Anexar arquivos **.docx** ou **.md**.
-- Registrar **data** e **versão** da entrega.
-- **Vincular** ao TG e ao aluno.
-- Orientador **acessa/baixa** arquivos.
-- **Histórico de versões** mantido.
-
-### US09 – Chat aluno ↔ orientador (Must)
-- Troca de mensagens (**remetente, destinatário, conteúdo, data/hora**).
-- Aluno e orientador **visualizam histórico**.
-- **Armazenar** no BD (tempo real ou simulado).
-
-### US12 – Integração com Git (Must)
-- Informar **URL de repositório Git** e **validar**.
-- Exibir **commits** (autor, mensagem, data).
-- Orientador **acessa histórico**.
-> 
+## 🎯 Objetivo da Sprint
+Realizar o **levantamento de requisitos** e produzir os **wireframes iniciais**, junto da **documentação mínima necessária**, com meta de entregar um **esboço de tela** validado.
 
 ---
 
-## 📅 Sprint Backlog – Exemplo (Sprint 1)
-- **Meta:** base do sistema (cadastro de usuários e TG, upload e chat inicial). 
-- **Capacidade estimada:** 16 Story Points (exemplo didático do guia).
+## ✅ Itens do Backlog da Sprint 1
 
-| ID | User Story | Estimativa | Status |
-|---|---|---|---|
-| US01 | Cadastro de orientadores | 5 | A fazer |
-| US02 | Cadastro de orientados | 5 | A fazer |
-| US05 | Cadastro de informações do TG | 5 | A fazer |
-| US08 | Upload de entregas | 8 | A fazer |
-| US09 | Chat aluno ↔ orientador | 8 | A fazer |
+1. **Levantar requisitos funcionais e não funcionais**  
+   - Saída: lista documentada de requisitos.  
+
+2. **Mapear usuários e criar personas**  
+   - Saída: personas definidas.  
+
+3. **Definir objetivos principais do sistema/produto**  
+   - Saída: documento de objetivos aprovado pelo PO.  
+
+4. **Criar fluxos de navegação macro**  
+   - Saída: fluxograma de alto nível das interações.  
+
+5. **Criar wireframes de baixa fidelidade para telas principais**  
+   - Saída: wireframes iniciais (rascunho digital).  
+
+6. **Validar wireframes com stakeholders**  
+   - Saída: feedback registrado em ata/documento.  
+
+7. **Documentar requisitos funcionais iniciais**  
+   - Saída: documentação mínima pronta para apoiar evolução futura.  
+
+---
+
+
+
+
+
+## 📊 Status Board (Scrum)
+| Item | Tarefa | Status |
+|------|--------|--------|
+| 1 | Levantar requisitos funcionais e não funcionais | To Do |
+| 2 | Mapear usuários e criar personas | To Do |
+| 3 | Definir objetivos principais do sistema/produto | To Do |
+| 4 | Criar fluxos de navegação macro | To Do |
+| 5 | Criar wireframes de baixa fidelidade | To Do |
+| 6 | Validar wireframes com stakeholders | To Do |
+| 7 | Documentar requisitos funcionais iniciais | To Do |
+
+---
+
 
 
 ---
