@@ -1,7 +1,7 @@
 # 🚀 Projeto
 ##  Sistema de Gestão de Trabalhos de Graduação (TG)
 
-> Aplicação **Java Desktop + JDBC** com **banco de dados relacional** para facilitar a gestão, acompanhamento e comunicação entre **coordenador, orientadores e orientados** durante o desenvolvimento dos Trabalhos de Graduação. [oai_citation:0‡Backlog_Gestao_TG.pdf](file-service://file-UsY2Pf5E63vkR57poAZwQj) [oai_citation:1‡Desafio do Parceiro Academico 2BD - Interno (2).pdf](file-service://file-HyU7AeZfeoMMcQ8w4vxGeY)
+> Aplicação **Java Desktop + JDBC** com **banco de dados relacional** para facilitar a gestão, acompanhamento e comunicação entre **coordenador, orientadores e orientados** durante o desenvolvimento dos Trabalhos de Graduação.
 
 ---
 
@@ -12,13 +12,13 @@
 ---
 
 ## 👥 Equipe
-| Foto | Nome Completo | Papel | Contato (GitHub/LinkedIn) |
+| Foto | Nome Completo | Papel | (GitHub/LinkedIn) |
 |---|---|---|---|
-| <img src="https://media.licdn.com/dms/image/v2/D4E03AQETqTeWU1u0kQ/profile-displayphoto-shrink_400_400/B4EZcZJ13MHkAg-/0/1748473702240?e=1759968000&v=beta&t=JzKRX1STN03zrwpxW0U8Sc2v6cvh6PZ5ZXv_s6gYYBo" alt="Erick Faria" width="100" style="border-radius:50%"/> | _Erick Faria_ | **Product Owner (PO)** | [GitHub](https://github.com/ErickvFaria) · [LinkedIn](https://www.linkedin.com/in/%C3%A9rick-vin%C3%ADcius-79193b253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) |
-| <img src="https://media.licdn.com/dms/image/v2/D5603AQFB3SF5kKWbpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680381556339?e=1759968000&v=beta&t=dCTpHztLS2BHzzqoWRczFyV47yPz03WtsRAlL1g2MD0" alt="Pedro Quirino" width="100" style="border-radius:50%"/> | _Pedro Quirino_ | **Scrum Master (SM)** | [GitHub](https://github.com/pedroquirino) · [LinkedIn](https://www.linkedin.com/in/pedro-henrique-quirino-909aa8270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) |
-| <img src="https://media.licdn.com/dms/image/v2/D4D03AQFIiL3WGBRszg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665246965939?e=1759968000&v=beta&t=2v3RldR6oCG1jxQOSfeo363Qgzmb_XAMw5TN684mkbM" alt="Rodrigo Pereira" width="100" style="border-radius:50%"/> | _Rodrigo Pereira_ | **Dev Team** | [GitHub](https://github.com/ropcastr) · [LinkedIn](https://www.linkedin.com/in/rodrigo-pereira-de-castro-09758853/) |
-| <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYuR3ifpe5eA/profile-displayphoto-shrink_400_400/B4DZXff2PxHsAg-/0/1743211423151?e=1759968000&v=beta&t=VsJZRlZYbFHNJvotAN86ClaNE173ULiN-o1iDc-IPc0" alt="Benjamin Marques" width="100" style="border-radius:50%"/> | _Benjamin Marques_ | **Dev Team** | [GitHub](https://github.com/maarquueess) · [LinkedIn](https://www.linkedin.com/in/benjamin-marques-48a4bb359?trk=contact-info) |
-| <img src="https://media.licdn.com/dms/image/v2/D5603AQGxl091YHkmUg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730907608299?e=1759968000&v=beta&t=znfCRBn34xHGjLRqJMqx82uiN4W27-jkCbibBHhB-T4" alt="Kaio Adalton" width="100" style="border-radius:50%"/> | _Kaio Adalton_ | **Dev Team** | [GitHub](https://github.com/onkaidev) · [LinkedIn](https://www.linkedin.com/in/kaio-braz%C3%A3o?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) |
+| <img src="https://media.licdn.com/dms/image/v2/D4E03AQETqTeWU1u0kQ/profile-displayphoto-shrink_400_400/B4EZcZJ13MHkAg-/0/1748473702240?e=1759968000&v=beta&t=JzKRX1STN03zrwpxW0U8Sc2v6cvh6PZ5ZXv_s6gYYBo" alt="Erick Faria" width="100" style="border-radius:50%"/> | _Erick Faria_ | **Product Owner (PO)** |&nbsp;&nbsp;&nbsp;[![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/ErickvFaria) &nbsp;&nbsp;&nbsp;&nbsp; [![LinkedIn](https://img.icons8.com/ios-filled/30/000000/linkedin.png)](https://www.linkedin.com/in/%C3%A9rick-vin%C3%ADcius-79193b253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) |
+| <img src="https://media.licdn.com/dms/image/v2/D5603AQFB3SF5kKWbpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680381556339?e=1759968000&v=beta&t=dCTpHztLS2BHzzqoWRczFyV47yPz03WtsRAlL1g2MD0" alt="Pedro Quirino" width="100" style="border-radius:50%"/> | _Pedro Quirino_ | **Scrum Master (SM)** |&nbsp;&nbsp;&nbsp; [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/pedroquirino) &nbsp;&nbsp;&nbsp;&nbsp;  [![LinkedIn](https://img.icons8.com/ios-filled/30/000000/linkedin.png)](https://www.linkedin.com/in/pedro-henrique-quirino-909aa8270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)|
+| <img src="https://media.licdn.com/dms/image/v2/D4D03AQFIiL3WGBRszg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665246965939?e=1759968000&v=beta&t=2v3RldR6oCG1jxQOSfeo363Qgzmb_XAMw5TN684mkbM" alt="Rodrigo Pereira" width="100" style="border-radius:50%"/> | _Rodrigo Pereira_ | **Dev Team** |&nbsp;&nbsp;&nbsp; [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/ropcastr) &nbsp;&nbsp;&nbsp;&nbsp; [![LinkedIn](https://img.icons8.com/ios-filled/30/000000/linkedin.png)](https://www.linkedin.com/in/rodrigo-pereira-de-castro-09758853/) |
+| <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYuR3ifpe5eA/profile-displayphoto-shrink_400_400/B4DZXff2PxHsAg-/0/1743211423151?e=1759968000&v=beta&t=VsJZRlZYbFHNJvotAN86ClaNE173ULiN-o1iDc-IPc0" alt="Benjamin Marques" width="100" style="border-radius:50%"/> | _Benjamin Marques_ | **Dev Team** |&nbsp;&nbsp;&nbsp; [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/maarquueess) &nbsp;&nbsp;&nbsp;&nbsp; [![LinkedIn](https://img.icons8.com/ios-filled/30/000000/linkedin.png)](https://www.linkedin.com/in/benjamin-marques-48a4bb359?trk=contact-info) |
+| <img src="https://media.licdn.com/dms/image/v2/D5603AQGxl091YHkmUg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730907608299?e=1759968000&v=beta&t=znfCRBn34xHGjLRqJMqx82uiN4W27-jkCbibBHhB-T4" alt="Kaio Adalton" width="100" style="border-radius:50%"/> | _Kaio Adalton_ | **Dev Team** |&nbsp;&nbsp;&nbsp; [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/onkaidev) &nbsp;&nbsp;&nbsp;&nbsp; [![LinkedIn](https://img.icons8.com/ios-filled/30/000000/linkedin.png)](https://www.linkedin.com/in/kaio-braz%C3%A3o?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) |
 
 
 
@@ -35,9 +35,8 @@ Centralizar informações de TG (dados, entregas, histórico, feedbacks e commit
 - **Gestão de Usuários** (alunos, orientadores, coordenador)
 - **Gestão de TGs** (cadastro, informações, progresso, seções)
 - **Comunicação e Interação** (chat, mensagens, histórico)
-- **Integração com Git** (versionamento, histórico)
 - **Relatórios e Histórico** (andamento, feedbacks, entregas)
-- **Configurações** (permissões, exportações etc.) 
+- **Configurações**  
 
 ---
 
@@ -143,16 +142,9 @@ Realizar o **levantamento de requisitos** e produzir os **wireframes iniciais**,
 ---
 
 ## 🛠️ Tecnologias
-- **Java (versão LTS – garantindo suporte estendido e estabilidade para o projeto)**
-- **Javafx**
-- **IntelliJ IDEA**
-- **Scene Builder**
-- **JDBC**
-- **MySQL/PostgreSQL (Relacional)**
-- **Git/GitHub** 
-- **Jira**
-- **Discord**
-  
+- ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png)           ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)          ![Git](https://img.icons8.com/color/48/git.png) 
+- ![IntelliJ IDEA](https://img.icons8.com/color/48/intellij-idea.png)         ![Jira](https://img.icons8.com/color/48/jira.png)                 ![Discord](https://img.icons8.com/color/48/discord-logo.png)
+
 
 ---
 
