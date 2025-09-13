@@ -40,28 +40,34 @@ Centralizar informações de TG (dados, entregas, histórico, feedbacks e commit
 ## 📌 Product Backlog (User Stories)
 > 
 
-| ID | Épico | User Story | Prioridade |
-|---|---|---|---|
-| US01 | Gestão de Usuários | Como **coordenador**, quero **cadastrar orientadores** | **Must** |
-| US02 | Gestão de Usuários | Como **coordenador**, quero **cadastrar orientados** | **Must** |
-| US03 | Gestão de Usuários | Como coordenador, quero **visualizar lista de orientados** | Should |
-| US04 | Gestão de Usuários | Como coordenador, quero **atualizar dados do orientado** | Could |
-| US05 | Gestão de TGs | Como **orientado**, quero **cadastrar informações do meu TG** | **Must** |
-| US06 | Gestão de TGs | Como orientado, quero **acompanhar o progresso do meu TG** | Should |
-| US07 | Gestão de TGs | Como coordenador, quero **visualizar todos os TGs** | Could |
-| US08 | Gestão de TGs | Como **orientado**, quero **enviar entregas do TG** | **Must** |
-| US09 | Comunicação | Como **orientado**, quero **trocar mensagens com meu orientador (chat)** | **Must** |
-| US10 | Comunicação | Como orientador, quero **registrar feedbacks em entregas** | Should |
-| US11 | Comunicação | Como usuário, quero **acessar histórico de interações** | Should |
-| US12 | Integração com Git | Como **orientado**, quero **vincular repositório Git/commits** | **Must** |
-| US13 | Integração com Git | Como orientador, quero **acessar histórico de commits do aluno** | Should |
-| US14 | Integração com Git | Como usuário, quero **comparar versões de commits** | Could |
-| US15 | Relatórios | Como coordenador, quero **relatórios de evolução** | Could |
-| US16 | Relatórios | Como coordenador, quero **exportar relatórios (CSV)** | Could |
-| US17 | Relatórios | Como orientador, quero **histórico de entregas dos orientados** | Should |
-| US18 | Configurações | Como coordenador, quero **definir permissões** | Could |
-| US19 | Configurações | Como aluno, quero **notificações de prazos** | Could |
-| US20 | Configurações | Como aluno/orientador, quero **alertas de feedbacks e prazos** | Could |
+| ID   | Épico                | User Story / Tarefa                                                                 | Prioridade |
+| ---- | -------------------- | ----------------------------------------------------------------------------------- | ---------- |
+| US01 | Levantamento Inicial | Como **coordenador**, quero **levantar os requisitos funcionais e não funcionais** para **definir claramente o escopo do sistema** | **Must**   |
+| US02 | Levantamento Inicial | Como **coordenador**, quero **mapear usuários e criar personas** para **entender melhor as necessidades de cada perfil do sistema** | **Must**   |
+| US03 | Levantamento Inicial | Como **coordenador**, quero **definir os objetivos principais do sistema/produto** para **alinhar expectativas com todos os envolvidos** | **Must**   |
+| US04 | Levantamento Inicial | Como **usuário do sistema**, quero **ter fluxos de navegação macro** para **visualizar de forma simples como irei interagir com a aplicação** | **Must**   |
+| US05 | Prototipação         | Como **usuário**, quero **visualizar wireframes de baixa fidelidade** para **entender a estrutura inicial das telas do sistema** | **Must**   |
+| US06 | Prototipação         | Como **stakeholder**, quero **validar os wireframes criados** para **garantir que atendem às minhas necessidades antes do desenvolvimento** | **Should** |
+| US07 | Banco de Dados       | Como **desenvolvedor**, quero **modelar o banco de dados conceitual** para **ter uma base estruturada para implementação futura** | **Should** |
+| US08 | Documentação         | Como **coordenador**, quero **documentar os requisitos funcionais iniciais** para **manter o alinhamento entre equipe e stakeholders** | **Could**  |
+| US09 | Gestão de Usuários   | Como **coordenador**, quero **cadastrar orientadores** para **organizar a equipe de orientação** | **Must**   |
+| US10 | Gestão de Usuários   | Como **coordenador**, quero **cadastrar orientados** para **vincular alunos a orientadores** | **Must**   |
+| US11 | Gestão de Usuários   | Como **coordenador**, quero **visualizar lista de orientados** para **acompanhar quem está cadastrado** | **Should** |
+| US12 | Gestão de Usuários   | Como **coordenador**, quero **atualizar dados do orientado** para **manter as informações corretas no sistema** | **Could**  |
+| US13 | Gestão de TGs        | Como **orientado**, quero **cadastrar informações do meu TG** para **formalizar meu projeto no sistema** | **Must**   |
+| US14 | Gestão de TGs        | Como **orientado**, quero **acompanhar o progresso do meu TG** para **ter visibilidade da evolução do meu trabalho** | **Should** |
+| US15 | Gestão de TGs        | Como **coordenador**, quero **visualizar todos os TGs** para **acompanhar a situação geral** | **Could**  |
+| US16 | Gestão de TGs        | Como **orientado**, quero **enviar entregas do TG** para **submeter versões parciais do trabalho** | **Must**   |
+| US17 | Comunicação          | Como **orientado**, quero **trocar mensagens com meu orientador (chat)** para **tirar dúvidas e receber feedback rápido** | **Must**   |
+| US18 | Comunicação          | Como **orientador**, quero **registrar feedbacks em entregas** para **fornecer orientações diretamente nas submissões** | **Should** |
+| US19 | Comunicação          | Como **usuário**, quero **acessar histórico de interações** para **consultar mensagens e feedbacks anteriores** | **Should** |
+| US20 | Relatórios           | Como **coordenador**, quero **relatórios de evolução** para **acompanhar o andamento dos TGS** | **Could**  |
+| US21 | Relatórios           | Como **coordenador**, quero **exportar relatórios (CSV)** para **compartilhar dados com outros envolvidos** | **Could**  |
+| US22 | Relatórios           | Como **orientador**, quero **histórico de entregas dos orientados** para **acompanhar correções e prazos cumpridos** | **Should** |
+| US23 | Configurações        | Como **coordenador**, quero **definir permissões** para **controlar acessos e responsabilidades no sistema** | **Could**  |
+| US24 | Configurações        | Como **aluno**, quero **notificações de prazos** para **ser lembrado das minhas entregas** | **Could**  |
+| US25 | Configurações        | Como **aluno/orientador**, quero **alertas de feedbacks e prazos** para **acompanhar interações importantes no sistema** | **Could**  |
+
 
 ---
 
