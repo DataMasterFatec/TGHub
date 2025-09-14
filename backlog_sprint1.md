@@ -11,6 +11,20 @@ O principal desafio da Sprint 1 é transformar os conceitos e wireframes em uma 
 
 ---
 
+| Prioridade | Atividade | Sprint |
+| :--- | :--- | :---: |
+| Alta | Documentar os casos de uso para os perfis Aluno, Professor Orientador e Prof. TG, incluindo os principais casos de uso ("Registrar Usuário", "Submeter Entrega", "Avaliar Entrega", "Monitorar Progresso"). | 1 |
+| Alta | Modelar o ciclo de vida de uma entrega em diagrama de atividades (Submissão → Avaliação → Correção → Aprovação → Assinatura). | 1 |
+| Alta | Consolidar todos os requisitos funcionais e não funcionais em um Documento de Especificação. | 1 |
+| Alta | Criar o Diagrama Entidade-Relacionamento (DER) com todas as entidades (Usuário, Curso, Entrega, Submissão, Mensagem), atributos e relacionamentos. | 1 |
+| Alta | Converter o DER em modelo lógico e escrever o script SQL inicial (DDL) para criação das tabelas. | 1 |
+| Média | Configurar o repositório GitHub, criar README inicial e documentar estratégia de branches (main, develop, sprint-1, etc.). | 1 |
+| Média | Criar a estrutura de pacotes base da aplicação Java (`com.tghub.model`, `com.tghub.dao`, `com.tghub.view`, `com.tghub.controller`). | 1 |
+| Média | Criar o projeto base em JavaFX e configurar dependências necessárias (ex: JDBC Driver). | 1 |
+| Baixa | Revisar e refinar todas as User Stories do backlog, garantindo clareza e consistência. | 1 |
+| Baixa | Definir os critérios de aceite para todas as User Stories que serão desenvolvidas nas Sprints 2 e 3. | 1 |
+
+
 ### Atividades da Sprint 1
 As atividades desta Sprint são focadas em planejamento e modelagem, não envolvendo a implementação de funcionalidades do backlog.
 
