@@ -28,7 +28,6 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
 | **Sprint 3** | 03/11/2025 - 23/11/2025 | Foco na implementação da funcionalidade de interação (chat). Será desenvolvida a mecânica de submissão de arquivos, troca de mensagens, avaliação e assinatura das entregas. |
 
 **Link para Documentação da Sprint 1:** [Sprint 1](backlog_sprint1.md)  
-**Link para Vídeo do Incremento da Sprint 1:** [PLACEHOLDER: Link para o vídeo no Youtube]
 
 ## 5.  Tecnologias
 - ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) &nbsp;   &nbsp;      ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)  &nbsp;  &nbsp;      ![Git](https://img.icons8.com/color/48/git.png) 
@@ -36,7 +35,6 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
  &nbsp; &nbsp;               ![Discord](https://img.icons8.com/color/48/discord-logo.png)
 
 ## 6. Estrutura do Projeto
-[PLACEHOLDER: Início]
 
 ## 7. Estratégia de Branch
 * `main` – versão estável
