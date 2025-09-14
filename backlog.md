@@ -1,5 +1,16 @@
 | Prioridade | Épico / User Story | Sprint |
 | :--- | :--- | :---: |
+| | **ATIVIDADES DA SPRINT 1 (Planejamento e Modelagem)** | |
+| Alta | Como equipe, desejamos documentar os casos de uso para Aluno, Professor Orientador e Professor de TG, para que todos os fluxos principais estejam mapeados. | 1 |
+| Alta | Como equipe, desejamos modelar o ciclo de vida de uma entrega em um diagrama de atividades, para que o fluxo fique claro e padronizado. | 1 |
+| Alta | Como equipe, desejo consolidar os requisitos funcionais e não funcionais em um Documento de Especificação, para que haja uma base única de consulta. | 1 |
+| Alta | Como equipe, desejo modelar o banco de dados em um DER, para que as entidades, atributos e relacionamentos fiquem claros. | 1 |
+| Alta | Como equipe, desejo converter o DER em modelo lógico e escrever o script DDL inicial, para que o banco possa ser implementado. | 1 |
+| Média | Como equipe, desejo configurar o repositório GitHub e documentar a estratégia de branches no README, para que o time siga um fluxo padrão. | 1 |
+| Média | Como equipe, desejo criar a estrutura de pacotes base da aplicação Java, para que o código siga um padrão desde o início. | 1 |
+| Média | Como equipe, desejo criar o projeto base em JavaFX e configurar dependências (ex: JDBC Driver), para que possamos iniciar o desenvolvimento. | 1 |
+| Baixa | Como equipe, desejo revisar e refinar as User Stories existentes no backlog, para garantir clareza e consistência. | 1 |
+| Baixa | Como equipe, desejo definir os critérios de aceite para as histórias que serão desenvolvidas nas Sprints 2 e 3, para que o backlog esteja pronto para execução. | 1 |
 | | **ÉPICO 1: Controle de Acesso e Perfis de Usuário** | |
 | Alta | Como um usuário, desejo realizar login com e-mail e senha para que eu seja autenticado e redirecionado para o meu dashboard. | 2 |
 | Alta | Como um novo usuário, desejo registrar uma conta com meu perfil (Aluno, Orientador, Prof. TG) para que meus dados sejam salvos e eu possa acessar o sistema. | 2 |
