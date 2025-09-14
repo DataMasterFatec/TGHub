@@ -30,12 +30,10 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
 **Link para Documentação da Sprint 1:** [Sprint 1](backlog_sprint1.md)  
 **Link para Vídeo do Incremento da Sprint 1:** [PLACEHOLDER: Link para o vídeo no Youtube]
 
-## 5. Tecnologias Utilizadas
-* **Linguagem:** Java 11+
-* **Kit de Interface Gráfica:** JavaFX
-* **Acesso ao Banco de Dados:** JDBC (Java Database Connectivity)
-* **Banco de Dados (SGBD):** PostgreSQL ou MySQL
-* **Controle de Versão:** Git / GitHub
+## 5.  Tecnologias
+- ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) &nbsp;   &nbsp;      ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)  &nbsp;  &nbsp;      ![Git](https://img.icons8.com/color/48/git.png) 
+- ![IntelliJ IDEA](https://img.icons8.com/color/48/intellij-idea.png) &nbsp;    &nbsp;    ![Trello](https://img.icons8.com/color/48/trello.png)
+ &nbsp; &nbsp;               ![Discord](https://img.icons8.com/color/48/discord-logo.png)
 
 ## 6. Estrutura do Projeto
 [PLACEHOLDER: Início]
