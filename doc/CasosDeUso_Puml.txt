@@ -1,0 +1,55 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam monochrome false
+skinparam actorStyle awesome
+
+' Definindo atores com cores de fundo
+actor "Coordenador de TG" as Coordenador #0000FF
+actor "Orientador" as Orientador #008000
+actor "Orientando (Aluno)" as Orientando #FFA500
+
+' Definindo casos de uso
+usecase "UC01 - Gerenciar Alunos (inclui atribuir/corrigir orientador)" as UC01
+usecase "UC02 - Gerenciar Orientadores" as UC02
+usecase "UC04 - Cadastrar/Atualizar TG" as UC04
+usecase "UC05 - Upload de Versões do TG" as UC05
+usecase "UC06 - Visualizar Histórico do TG" as UC06
+usecase "UC07 - Comunicação Orientador ↔ Orientando" as UC07
+usecase "UC08 - Gerar Relatórios e Dashboards" as UC08
+usecase "UC09 - Exportar Portfólio (README.md)" as UC09
+usecase "UC10 - Login e Controle de Acesso" as UC10
+usecase "UC11 - Preencher Portfólio de TG (API 1 a 6)" as UC11
+usecase "UC12 - Revisar e Aprovar Entrega do Portfólio" as UC12
+usecase "UC13 - Controlar Entregas do TG" as UC13
+
+' Conexões do Coordenador (azul)
+Coordenador --> UC01 #blue
+Coordenador --> UC02 #blue
+Coordenador --> UC04 #blue
+Coordenador --> UC06 #blue
+Coordenador --> UC08 #blue
+Coordenador --> UC09 #blue
+Coordenador --> UC10 #blue
+Coordenador --> UC13 #blue
+
+' Conexões do Orientador (verde)
+Orientador --> UC04 #green
+Orientador --> UC05 #green
+Orientador --> UC06 #green
+Orientador --> UC07 #green
+Orientador --> UC08 #green
+Orientador --> UC10 #green
+Orientador --> UC12 #green
+
+' Conexões do Orientando (laranja)
+Orientando --> UC01 #orange
+Orientando --> UC04 #orange
+Orientando --> UC05 #orange
+Orientando --> UC06 #orange
+Orientando --> UC07 #orange
+Orientando --> UC09 #orange
+Orientando --> UC10 #orange
+Orientando --> UC11 #orange
+
+@enduml
