@@ -12,10 +12,10 @@ Os casos de uso são baseados em um diagrama de casos de uso (em PlantUML) e uma
 - **Orientador**: Gerencia o TG dos alunos, aprova entregas, comunica-se com orientandos e visualiza históricos.
 - **Orientando (Aluno)**: Realiza cadastros, preenche portfólios, faz uploads de versões e se comunica com o orientador.
 
-## Diagrama de Casos de Uso
+## Diagrama de Casos de Uso - ![Diagrama em PlantUML](./CasosDeUso_Puml.txt)
 
 ![Diagrama](./CasosDeUso.png)
-![diagrama em PlantUML](./CasosDeUso_Puml.txt)
+
 
 ## Casos de Uso Detalhados
 
