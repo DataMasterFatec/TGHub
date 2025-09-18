@@ -14,8 +14,8 @@ Os casos de uso são baseados em um diagrama de casos de uso (em PlantUML) e uma
 
 ## Diagrama de Casos de Uso
 
-![Diagrama](./doc/CasosDeUso.png)
-![diagrama em PlantUML](./doc/CasosDeUso_Puml.txt)
+![Diagrama](./CasosDeUso.png)
+![diagrama em PlantUML](./CasosDeUso_Puml.txt)
 
 ## Casos de Uso Detalhados
 
