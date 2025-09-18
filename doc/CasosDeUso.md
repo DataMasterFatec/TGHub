@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Trabalhos de Graduação (TG)
+# Documentação de Casos de Uso - TGHUB
 
 ## Introdução
 
