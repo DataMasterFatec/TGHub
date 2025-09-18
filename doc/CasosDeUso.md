@@ -40,4 +40,4 @@ A seguir, uma tabela com os detalhes de cada caso de uso, incluindo ID, Nome, At
 
 - O sistema segue o padrão de portfólio da FATEC, com foco em APIs de 1 a 6 para o preenchimento de portfólios.
 - Para mais detalhes sobre implementação, consulte os arquivos de código no repositório.
-- Contribuições são bem-vindas! Abra uma issue para sugestões ou pull requests para correções.
+
