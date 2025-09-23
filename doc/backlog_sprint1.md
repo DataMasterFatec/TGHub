@@ -13,7 +13,7 @@ O principal desafio da Sprint 1 é transformar os conceitos e wireframes em uma 
 
 | Prioridade | Atividade | Estimativa (Pontos) |
 | :--- | :--- | :---: |
-| Alta | Documentar os casos de uso para os perfis Aluno, Professor Orientador e Prof. TG, incluindo os principais casos de uso ("Registrar Usuário", "Submeter Entrega", "Avaliar Entrega", "Monitorar Progresso"). | 5 |
+| Alta | Documentar os casos de uso para os perfis Aluno, Professor Orientador e Prof. TG, incluindo os principais casos de uso ("Registrar Usuário", "Elaborar documento", "Submeter Entrega", "Avaliar Entrega", "Monitorar Progresso"). | 5 |
 | Alta | Modelar o ciclo de vida de uma entrega em diagrama de atividades (Submissão → Avaliação → Correção → Aprovação → Assinatura). | 3 |
 | Alta | Consolidar todos os requisitos funcionais e não funcionais em um Documento de Especificação. | 5 |
 | Alta | Criar o Diagrama Entidade-Relacionamento (DER) com todas as entidades (Usuário, Curso, Entrega, Submissão, Mensagem), atributos e relacionamentos. | 8 |
