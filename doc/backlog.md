@@ -18,7 +18,7 @@
 | 16 | Média | Como Orientador, desejo poder validar formalmente uma entrega concluída para que o progresso do aluno seja oficialmente registrado. | 3 | 3 |
 | 17 | Média | Como Prof. TG, desejo poder auditar o andamento de um aluno específico, sem poder editar, para que eu possa verificar a conformidade do processo de orientação. | 5 | 3 |
 | 18 | Média | Como Prof. TG, desejo consultar o histórico de interações entre aluno e orientador para que eu possa mediar ou esclarecer questões, caso necessário. | 3 | 3 |
-| 19 | Baixa | Como um usuário, desejo poder atualizar minhas informações pessoais para manter meu cadastro correto e seguro. | 2 | 3 |
+| 19 | Baixa | Como um membro da comunidade acadêmica (Aluno, Orientador, Prof. TG), desejo poder atualizar minhas informações pessoais para manter meu cadastro correto e seguro. | 2 | 3 |
 | 20 | Baixa | Como Aluno, desejo realizar a submissão final do meu portffólio para formalizar a conclusão do meu trabalho de graduação. | 3 | 3 |
 | 21 | Baixa | Como Prof. TG, desejo acessar os portfólios dos alunos que concluíram 100% do trabalho para que eu possa arquivar e gerenciar a documentação final. | 5 | 3 |
 
