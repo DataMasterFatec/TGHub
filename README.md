@@ -16,7 +16,7 @@ O TGHub propõe uma plataforma única onde toda a interação, submissão de arq
 ## 3. Backlog do Produto
 O backlog completo do produto, contendo os épicos e as user stories para o desenvolvimento do sistema, pode ser encontrado no seguinte arquivo:
 
-[Backlog do Produto](doc/backlog.md)
+[Backlog do Produto](doc/backlogs/product_backlog.md)
 
 ## 4. Cronograma de Evolução do Projeto
 O desenvolvimento do projeto será realizado de forma incremental ao longo de três Sprints, cada uma representando uma fase do projeto. Ao final de cada Sprint, um incremento funcional do produto será apresentado.
@@ -27,7 +27,7 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
 | **Sprint 2** | 06/10/2025 - 26/10/2025 | Foco na implementação do núcleo de usuários e do banco de dados. Serão desenvolvidas as funcionalidades de registro/login para todos os perfis e as telas pós-login (dashboards) com dados dinâmicos, além dos formulários de preenchimento/visualização de TG para cada entrega e para a versão atual do documento final. |
 | **Sprint 3** | 03/11/2025 - 23/11/2025 | Foco na implementação da funcionalidade de interação (chat). Será desenvolvida a mecânica troca de mensagens, avaliação, notificações e assinatura das entregas. |
 
-**Link para Documentação da Sprint 1:** [Sprint 1](/doc/backlog_sprint1.md)  
+**Link para Documentação da Sprint 1:** [Sprint 1](/doc/backlogs/backlog_sprint1.md)  
 
 ## 5.  Tecnologias
 - ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) &nbsp;   &nbsp;      ![MySQL](https://img.icons8.com/color/48/mysql-logo.png)  &nbsp;  &nbsp;      ![Git](https://img.icons8.com/color/48/git.png) 
