@@ -11,7 +11,7 @@
 [⚙️ RNF](#️-requisitos-não-funcionais-rnf) •
 [💻 Tecnologias](#-tecnologias-e-ferramentas-utilizadas) •
 [🧩 Branch](#-estratégia-de-branch) •
-[📌 Commits](#-padrão-de-commits---projeto) •
+[📌 Commits](#-padrão-de-commits) •
 [👥 Equipe](#-equipe)
 
 
@@ -134,6 +134,8 @@ O código deve ser modular e documentado, facilitando atualizações e correçõ
 
 </details>
 
+---
+
 ## 💻 Tecnologias e Ferramentas Utilizadas
 
 | Tecnologia/Ferramenta | Ícone | Descrição |
@@ -149,7 +151,7 @@ O código deve ser modular e documentado, facilitando atualizações e correçõ
 * `main` – versão estável
 * `Sprint-x` – versão de desenvolvimento
 
-## Padrão de Commits
+## 📌 Padrão de Commits
 * Neste projeto usamos o padrão Conventional Commits para manter o histórico organizado e facilitar a colaboração. 
 [Ver detalhes](docs/processos/padrao_commit.md)
 
