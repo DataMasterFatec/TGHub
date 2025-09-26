@@ -1,8 +1,8 @@
-<h1 align="center">📊 EQUIPE DATA-MASTER 📚</h1>
-<h2 align="center">Gestão de Trabalhos de Graduação</h2>
+<h1 align="center"> EQUIPE DATA-MASTER </h1>
+<h2 align="center"> <strong>TG Hub</strong><br>Gestão de Trabalhos de Graduação</h2>
 <h3 align="center">2º Semestre BD - 2025 - 2</h3>
 
-## 📑 Índice
+## Índice
 [💡 Título do Projeto](#-título-do-projeto) •
 [🎯 Objetivo](#-objetivo) •
 [🖼️ Backlog](#️-backlog-do-produto) •
@@ -31,7 +31,7 @@ O TGHub propõe uma plataforma única onde toda a interação, submissão de arq
 ## 🖼️ Backlog do Produto
 O backlog completo do produto, contendo os épicos e as user stories para o desenvolvimento do sistema, pode ser encontrado no seguinte arquivo:
 
-[Backlog do Produto](doc/backlogs/product_backlog.md)
+[Backlog do Produto](docs/backlogs/product_backlog.md)
 
 ## ⏳ Cronograma de Evolução do Projeto
 O desenvolvimento do projeto será realizado de forma incremental ao longo de três Sprints, cada uma representando uma fase do projeto. Ao final de cada Sprint, um incremento funcional do produto será apresentado.
@@ -46,113 +46,112 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
 
 Abaixo, os requisitos funcionais derivados das *User Stories* priorizadas no backlog:
 
-1. **Acesso e Autenticação**
-   - RF01: O sistema deve permitir que membros da comunidade acadêmica (Aluno, Orientador, Prof. TG) acessem sua área pessoal de forma segura.
-   - RF02: O sistema deve permitir a criação de um acesso inicial para novos membros.
-   - RF03: O sistema deve permitir atualização de informações pessoais do usuário.
+<details>
+<summary><strong>1. Acesso e Autenticação</strong></summary>
 
-2. **Gestão do Progresso**
-   - RF04: O sistema deve exibir ao aluno uma visão geral do status de todas as suas entregas.
-   - RF05: O sistema deve exibir ao orientador o progresso de todos os seus orientandas.
-   - RF06: O sistema deve exibir ao professor de TG o progresso consolidado de todos os trabalhos do semestre.
+- RF01: O sistema deve permitir que membros da comunidade acadêmica (Aluno, Orientador, Prof. TG) acessem sua área pessoal de forma segura.
+- RF02: O sistema deve permitir a criação de um acesso inicial para novos membros.
+- RF03: O sistema deve permitir atualização de informações pessoais do usuário.
 
-3. **Produção e Submissão de Trabalhos**
-   - RF07: O sistema deve permitir que o aluno construa o conteúdo de suas entregas de forma guiada.
-   - RF08: O sistema deve permitir que o aluno submeta seu trabalho ao orientador.
-   - RF09: O sistema deve permitir que o orientador registre avaliações formais sobre submissões.
-   - RF10: O sistema deve manter um histórico de versões de entregas e feedbacks associados.
-   - RF11: O sistema deve permitir a revisão do resultado final do documento antes da entrega.
-   - RF12: O sistema deve permitir a formalização e obtenção do documento final da entrega.
-   - RF13: O sistema deve permitir a submissão final do portfólio do aluno.
+</details>
 
-4. **Comunicação e Notificações**
-   - RF14: O sistema deve notificar orientadores sobre novas submissões.
-   - RF15: O sistema deve notificar alunos sobre novas avaliações de orientadores.
+<details>
+<summary><strong>2. Gestão do Progresso</strong></summary>
 
-5. **Validação e Auditoria**
-   - RF16: O sistema deve permitir ao orientador validar formalmente uma entrega concluída.
-   - RF17: O sistema deve permitir ao professor de TG auditar o andamento de um aluno específico.
-   - RF18: O sistema deve permitir ao professor de TG consultar o histórico de interações entre aluno e orientador.
-   - RF19: O sistema deve permitir ao professor de TG acessar e arquivar portfólios finalizados.
+- RF04: O sistema deve exibir ao aluno uma visão geral do status de todas as suas entregas.
+- RF05: O sistema deve exibir ao orientador o progresso de todos os seus orientandos.
+- RF06: O sistema deve exibir ao professor de TG o progresso consolidado de todos os trabalhos do semestre.
 
-6. **Vínculos Acadêmicos**
-   - RF20: O sistema deve permitir que alunos estabeleçam vínculo formal com seu orientador.
+</details>
+
+<details>
+<summary><strong>3. Produção e Submissão de Trabalhos</strong></summary>
+
+- RF07: O sistema deve permitir que o aluno construa o conteúdo de suas entregas de forma guiada.
+- RF08: O sistema deve permitir que o aluno submeta seu trabalho ao orientador.
+- RF09: O sistema deve permitir que o orientador registre avaliações formais sobre submissões.
+- RF10: O sistema deve manter um histórico de versões de entregas e feedbacks associados.
+- RF11: O sistema deve permitir a revisão do resultado final do documento antes da entrega.
+- RF12: O sistema deve permitir a formalização e obtenção do documento final da entrega.
+- RF13: O sistema deve permitir a submissão final do portfóĺio do aluno.
+
+</details>
+
+<details>
+<summary><strong>4. Comunicação e Notificações</strong></summary>
+
+- RF14: O sistema deve notificar orientadores sobre novas submissões.
+- RF15: O sistema deve notificar alunos sobre novas avaliações de orientadores.
+
+</details>
+
+<details>
+<summary><strong>5. Validação e Auditoria</strong></summary>
+
+- RF16: O sistema deve permitir ao orientador validar formalmente uma entrega concluída.
+- RF17: O sistema deve permitir ao professor de TG auditar o andamento de um aluno específico.
+- RF18: O sistema deve permitir ao professor de TG consultar o histórico de interações entre aluno e orientador.
+- RF19: O sistema deve permitir ao professor de TG acessar e arquivar portfólios finalizados.
+
+</details>
+
+<details>
+<summary><strong>6. Vínculos Acadêmicos</strong></summary>
+
+- RF20: O sistema deve permitir que alunos estabeleçam vínculo formal com seu orientador.
+
+</details>
 
 ---
 
 ## ⚙️ Requisitos Não Funcionais (RNF)
 
+<details>
+<summary><strong>RNF01 - Usabilidade</strong></summary>
 
-- **RNF01 - Usabilidade:**  
-  A interface deve ser intuitiva, responsiva e acessível, considerando diferentes perfis de usuário (Aluno, Orientador, Prof. TG).
+A interface deve ser intuitiva, responsiva e acessível, considerando diferentes perfis de usuário (Aluno, Orientador, Prof. TG).
 
-- **RNF02 - Confiabilidade:**  
-  O sistema deve registrar logs de acesso, submissões e avaliações para garantir rastreabilidade.
+</details>
 
-- **RNF03 - Performance:**  
-  O sistema deve responder às interações do usuário em até 2 segundos em condições normais de uso.
+<details>
+<summary><strong>RNF02 - Confiabilidade</strong></summary>
 
-- **RNF04 - Escalabilidade:**  
-  A arquitetura deve permitir crescimento no número de usuários simultâneos sem perda de desempenho.
+O sistema deve versionar as submissões e avaliações para garantir rastreabilidade.
 
-- **RNF05 - Disponibilidade:**  
-  O sistema deve estar disponível pelo menos 99% do tempo em períodos letivos.
+</details>
 
-- **RNF06 - Manutenibilidade:**  
-  O código deve ser modular e documentado, facilitando atualizações e correções.
+<details>
+<summary><strong>RNF03 - Performance</strong></summary>
 
-- **RNF07 - Portabilidade:**  
-  O sistema deve ser acessível via navegadores modernos (Chrome, Firefox, Edge, Safari) em dispositivos desktop e mobile.
+O sistema deve responder às interações do usuário em até 2 segundos em condições normais de uso.
 
+</details>
 
+<details>
+<summary><strong>RNF04 - Manutenibilidade</strong></summary>
 
+O código deve ser modular e documentado, facilitando atualizações e correções.
+
+</details>
 
 ## 💻 Tecnologias e Ferramentas Utilizadas
 
 | Tecnologia/Ferramenta | Ícone | Descrição |
 |------------------------|-------|-----------|
 | Java | ![Java](https://img.icons8.com/color/48/java-coffee-cup-logo.png) | Linguagem principal utilizada no **back-end** do sistema. |
-| MySQL | ![MySQL](https://img.icons8.com/color/48/mysql-logo.png) | **Banco de dados relacional**, responsável pelo armazenamento das informações. |
-| Git | ![Git](https://img.icons8.com/color/48/git.png) | Sistema de **controle de versão** do código-fonte. |
-| IntelliJ IDEA | ![IntelliJ IDEA](https://img.icons8.com/color/48/intellij-idea.png) | **IDE (ambiente de desenvolvimento)** usada para programar em Java. |
-| Jira | ![Jira](https://img.icons8.com/color/48/jira.png) | Ferramenta para **gestão de tarefas e relatórios** do projeto. |
-| Discord | ![Discord](https://img.icons8.com/color/48/discord-logo.png) | Plataforma de **comunicação e colaboração** da equipe. |
+| JavaFX| <img src="https://www.qftest.com/fileadmin/Webdata/logos-icons/JavaFX.png" alt="JavaFX" width="48"> | Framework principal para a construção da interface gráfica (GUI) da aplicação desktop, garantindo uma experiência de usuário moderna e responsiva. |
+| MySQL Connector | ![Connector](https://img.icons8.com/color/48/database.png) | Driver JDBC oficial que permite a comunicação direta entre a aplicação Java e o servidor de banco de dados MySQL. |
+| MySQL | ![MySQL](https://img.icons8.com/color/48/mysql-logo.png) | Banco de dados relacional, responsável pelo armazenamento das informações. |
+| Maven | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/256/apache-maven-icon.png" alt="Maven" width="48"> | Ferramenta de automação de compilação (*build*) e gerenciamento de dependências, responsável por baixar as bibliotecas e empacotar o projeto.|
+| Git | ![Git](https://img.icons8.com/color/48/git.png) | Sistema de controle de versão do código-fonte. |
 
 ## 🧩 Estratégia de Branch
 * `main` – versão estável
 * `Sprint-x` – versão de desenvolvimento
 
-  ## 📌 Padrão de Commits - Projeto
-
-Neste projeto usamos o padrão [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/) para manter o histórico organizado e facilitar a colaboração.
-
----
-
-## 🚀 Estrutura
-
-
-### Exemplos
-- feat(login): adicionar autenticação via Google  
-- fix(api): corrigir erro de timeout  
-- docs(readme): atualizar instruções  
-
----
-
-## 📖 Tipos mais usados
-- **feat** → nova funcionalidade  
-- **fix** → correção de bug  
-- **docs** → documentação  
-- **style** → ajustes de formatação  
-- **refactor** → melhorias internas  
-- **test** → testes  
-- **chore** → tarefas de manutenção  
-
----
-
-## ✅ Boas práticas
-- Use verbos no **imperativo** (ex: adicionar, corrigir).  
-- Descrição curta (até 70 caracteres).  
-
+## Padrão de Commits
+* Neste projeto usamos o padrão Conventional Commits para manter o histórico organizado e facilitar a colaboração. 
+[Ver detalhes](docs/processos/padrao_commit.md)
 
 ## 👥 Equipe
 | Foto | Nome Completo | Papel | GitHub/LinkedIn |
