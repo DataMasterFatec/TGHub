@@ -2,6 +2,19 @@
 <h2 align="center">Gestão de Trabalhos de Graduação</h2>
 <h3 align="center">2º Semestre BD - 2025 - 2</h3>
 
+## 📑 Índice
+[💡 Título do Projeto](#-título-do-projeto) •
+[🎯 Objetivo](#-objetivo) •
+[🖼️ Backlog](#️-backlog-do-produto) •
+[⏳ Cronograma](#-cronograma-de-evolução-do-projeto) •
+[📋 RF](#-requisitos-funcionais-rf) •
+[⚙️ RNF](#️-requisitos-não-funcionais-rnf) •
+[💻 Tecnologias](#-tecnologias-e-ferramentas-utilizadas) •
+[🧩 Branch](#-estratégia-de-branch) •
+[📌 Commits](#-padrão-de-commits---projeto) •
+[👥 Equipe](#-equipe)
+
+
 ## 💡 Título do Projeto
 TGHub: Ciclo de Vida de Trabalhos de Graduação (TG) da modalidade Portfólio.
 
