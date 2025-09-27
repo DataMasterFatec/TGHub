@@ -32,7 +32,7 @@ O TGHub propõe uma plataforma única onde toda a interação, submissão de arq
 O backlog completo do produto, contendo os épicos e as user stories para o desenvolvimento do sistema, pode ser encontrado no seguinte arquivo:
 
 [Backlog do Produto](docs/backlogs/product_backlog.md)
-
+ 
 ## ⏳ Cronograma de Evolução do Projeto
 O desenvolvimento do projeto será realizado de forma incremental ao longo de três Sprints, cada uma representando uma fase do projeto. Ao final de cada Sprint, um incremento funcional do produto será apresentado.
 
@@ -41,6 +41,7 @@ O desenvolvimento do projeto será realizado de forma incremental ao longo de tr
 | **1** | 08/09/2025 - 28/09/2025 | Foco em documentação, modelagem e estrutura do projeto. Serão definidos os casos de uso, o modelo de dados (MER e lógico), a arquitetura do sistema e as prioridades do backlog. |✅ |[Sprint 1](/doc/backlogs/backlog_sprint1.md) |
 | **2** | 06/10/2025 - 26/10/2025 | Foco na implementação do núcleo de usuários e do banco de dados. Serão desenvolvidas as funcionalidades de registro/login para todos os perfis e as telas pós-login (dashboards) com dados dinâmicos, além dos formulários de preenchimento/visualização de TG para cada entrega e para a versão atual do documento final. | 🔄 | -|
 | **3** | 03/11/2025 - 23/11/2025 | Foco na implementação da funcionalidade de interação (chat). Será desenvolvida a mecânica troca de mensagens, avaliação, notificações e assinatura das entregas. | 🔄 | -|
+
 
 ## 📋 Requisitos Funcionais (RF)
 
@@ -154,6 +155,11 @@ O código deve ser modular e documentado, facilitando atualizações e correçõ
 ## 📌 Padrão de Commits
 * Neste projeto usamos o padrão Conventional Commits para manter o histórico organizado e facilitar a colaboração. 
 [Ver detalhes](docs/processos/padrao_commit.md)
+
+ ## ⤵️ Documento :
+ 
+ [Caso de Uso](/docs/use_cases/CasosDeUso.md)
+
 
 ## 👥 Equipe
 | Foto | Nome Completo | Papel | GitHub/LinkedIn |
