@@ -1,15 +1,17 @@
-## Planejamento da Sprint 1
+## 🚀 Obejetivo da Sprint 1
 
 ### Desafio
 O principal desafio da Sprint 1 é transformar os conceitos e wireframes em uma base técnica e documental sólida para o projeto. O foco não está na escrita de código funcional, mas na criação dos artefatos de engenharia de software que servirão como um mapa para as Sprints de implementação. A equipe deve traduzir as necessidades dos usuários em especificações formais e projetar a arquitetura de dados que suportará todas as funcionalidades. O sucesso desta Sprint será medido pela clareza e completude da documentação e dos modelos gerados, que devem mitigar riscos e incertezas para o desenvolvimento futuro.
 
-### Meta da Sprint (Sprint Goal)
+### 🎯 Meta da Sprint (Sprint Goal)
 > Ao final da Sprint 1, teremos toda a documentação de requisitos finalizada, os modelos conceitual e lógico do banco de dados aprovados, a estrutura inicial do projeto versionada no Git e o backlog de produto refinado e priorizado para as próximas Sprints.
 
 ### Período
 08/09/2025 - 30/09/2025
 
 ---
+
+# 📌 Backlog da 1ª Sprint
 
 | Prioridade | Atividade | Estimativa (Pontos) |
 | :--- | :--- | :---: |
@@ -24,7 +26,7 @@ O principal desafio da Sprint 1 é transformar os conceitos e wireframes em uma 
 | Baixa | Revisar e refinar todas as User Stories do backlog, garantindo clareza e consistência. | 3 |
 | Baixa | Definir os critérios de aceite para todas as User Stories que serão desenvolvidas nas Sprints 2 e 3. | 3 |
 
-### Definição de Pronto (DoD) para a Sprint 1
+### ✅ Definição de Pronto - 1ºSprint (DoD)
 Uma atividade ou artefato desta Sprint é considerado **"Pronto"** quando atende aos seguintes critérios:
 
 * O documento de especificação de requisitos (contendo casos de uso e diagramas) foi finalizado e revisado pela equipe.
@@ -32,3 +34,14 @@ Uma atividade ou artefato desta Sprint é considerado **"Pronto"** quando atende
 * O script SQL (DDL) para criação do banco de dados foi escrito e validado.
 * O repositório Git foi configurado com a estrutura de branches e o projeto JavaFX inicial foi versionado.
 * Todas as User Stories para as Sprints 2 e 3 possuem critérios de aceite definidos.
+
+  ### 📝 Definição de Preparado - 1ºSprint (DoR)
+
+Uma User Story é considerada **"Preparada"** para ser puxada para uma Sprint quando:
+
+* A história é clara, concisa e foi compreendida por toda a equipe de desenvolvimento.
+* Os critérios de aceite foram definidos e são testáveis, deixando claro como a funcionalidade será validada.
+* Quaisquer dependências (técnicas ou de outras histórias) foram identificadas e resolvidas ou planejadas.
+* A equipe de desenvolvimento estimou o esforço necessário para completar a história.
+* A história é pequena o suficiente para ser concluída dentro de uma única Sprint.
+* O Product Owner (P.O.) validou a história, garantindo que ela agrega valor ao produto.
