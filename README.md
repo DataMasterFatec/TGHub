@@ -163,6 +163,8 @@ O código deve ser modular e documentado, facilitando atualizações e correçõ
 
 [Wireframe](docs/wireframes/Wireflow.png)
 
+[Burndown](docs/burndown/relatorioSprintUmTGHub.png)
+
 ## 👥 Equipe
 | Foto | Nome Completo | Papel | GitHub/LinkedIn |
 | :--- | :--- | :--- | :--- |
