@@ -7,24 +7,24 @@ O principal desafio da Sprint 1 é transformar os conceitos e wireframes em uma 
 > Ao final da Sprint 1, teremos toda a documentação de requisitos finalizada, os modelos conceitual e lógico do banco de dados aprovados, a estrutura inicial do projeto versionada no Git e o backlog de produto refinado e priorizado para as próximas Sprints.
 
 ### Período
-08/09/2025 - 30/09/2025
+08/09/2025 - 28/09/2025
 
 ---
 
 # 📌 Backlog da 1ª Sprint
 
-| Prioridade | Atividade | Estimativa (Pontos) |
-| :--- | :--- | :---: |
-| Alta | Documentar os casos de uso para os perfis Aluno, Professor Orientador e Prof. TG, incluindo os principais casos de uso ("Registrar Usuário", "Elaborar documento", "Submeter Entrega", "Avaliar Entrega", "Monitorar Progresso"). | 5 |
-| Alta | Modelar o ciclo de vida de uma entrega em diagrama de atividades (Submissão → Avaliação → Correção → Aprovação → Assinatura). | 3 |
-| Alta | Consolidar todos os requisitos funcionais e não funcionais em um Documento de Especificação. | 5 |
-| Alta | Criar o Diagrama Entidade-Relacionamento (DER) com todas as entidades (Usuário, Curso, Entrega, Submissão, Mensagem), atributos e relacionamentos. | 8 |
-| Alta | Converter o DER em modelo lógico e escrever o script SQL inicial (DDL) para criação das tabelas. | 5 |
-| Média | Configurar o repositório GitHub, criar README inicial e documentar estratégia de branches (main, develop, sprint-1, etc.). | 1 |
-| Média | Criar a estrutura de pacotes base da aplicação Java (`com.tghub.model`, `com.tghub.dao`, `com.tghub.view`, `com.tghub.controller`). | 1 |
-| Média | Criar o projeto base em JavaFX e configurar dependências necessárias (ex: JDBC Driver). | 2 |
-| Baixa | Revisar e refinar todas as User Stories do backlog, garantindo clareza e consistência. | 3 |
-| Baixa | Definir os critérios de aceite para todas as User Stories que serão desenvolvidas nas Sprints 2 e 3. | 3 |
+| Prioridade | Atividade | Estimativa (Pontos) | Sprint |
+| :--- | :--- | :---: | :---: |
+| Alta | Documentar os casos de uso para os perfis Aluno, Professor Orientador e Prof. TG, incluindo os principais casos de uso ("Registrar Usuário", "Elaborar documento", "Submeter Entrega", "Avaliar Entrega", "Monitorar Progresso"). | 5 | 1 |
+| Alta | Modelar o ciclo de vida de uma entrega em diagrama de atividades (Submissão → Avaliação → Correção → Aprovação → Assinatura). | 3 | 1 |
+| Alta | Consolidar todos os requisitos funcionais e não funcionais em um Documento de Especificação. | 5 | 1 |
+| Alta | Criar o Diagrama Entidade-Relacionamento (DER) com todas as entidades (Usuário, Curso, Entrega, Submissão, Mensagem), atributos e relacionamentos. | 8 | 1 |
+| Alta | Converter o DER em modelo lógico e escrever o script SQL inicial (DDL) para criação das tabelas. | 5 | 1 |
+| Média | Configurar o repositório GitHub, criar README inicial e documentar estratégia de branches (main, develop, sprint-1, etc.). | 1 | 1 |
+| Média | Criar a estrutura de pacotes base da aplicação Java (`com.tghub.model`, `com.tghub.dao`, `com.tghub.view`, `com.tghub.controller`). | 1 | 1 |
+| Média | Criar o projeto base em JavaFX e configurar dependências necessárias (ex: JDBC Driver). | 2 | 1 |
+| Baixa | Revisar e refinar todas as User Stories do backlog, garantindo clareza e consistência. | 3 | 1 |
+| Baixa | Definir os critérios de aceite para todas as User Stories que serão desenvolvidas nas Sprints 2 e 3. | 3 | 1 |
 
 ### ✅ Definição de Pronto - 1ºSprint (DoD)
 Uma atividade ou artefato desta Sprint é considerado **"Pronto"** quando atende aos seguintes critérios:
