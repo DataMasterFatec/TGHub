@@ -23,7 +23,7 @@
                      <children>
                         <ImageView fitHeight="200.0" fitWidth="207.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../imagens/LogoTGHub.png" />
+                              <Image url="@../imagens/LogoTGHUB.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -61,7 +61,7 @@
                      <children>
                         <ImageView fitHeight="200.0" fitWidth="207.0" layoutX="6.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../imagens/LogoTGHub.png" />
+                              <Image url="@../imagens/LogoTGHUB.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -70,17 +70,12 @@
                     <items>
                       <AnchorPane fx:id="paneSignBtns" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600.0">
                            <children>
-                              <JFXButton fx:id="btnSignOrientador" layoutX="237.0" layoutY="30.0" onAction="#handleSignOrientador" text="Orientador">
+                              <JFXButton fx:id="btnSignOrientador" layoutX="315.0" layoutY="30.0" onAction="#handleSignOrientador" text="Orientador">
                                  <font>
                                     <Font name="Cascadia Mono Regular" size="12.0" />
                                  </font>
                               </JFXButton>
-                              <JFXButton fx:id="btnSignAluno" layoutX="100.0" layoutY="30.0" onAction="#handleSignAluno" text="Aluno">
-                                 <font>
-                                    <Font name="Cascadia Mono Regular" size="12.0" />
-                                 </font>
-                              </JFXButton>
-                              <JFXButton layoutX="400.0" layoutY="30.0" text="Coordenador de TG">
+                              <JFXButton fx:id="btnSignAluno" layoutX="190.0" layoutY="30.0" onAction="#handleSignAluno" text="Aluno">
                                  <font>
                                     <Font name="Cascadia Mono Regular" size="12.0" />
                                  </font>

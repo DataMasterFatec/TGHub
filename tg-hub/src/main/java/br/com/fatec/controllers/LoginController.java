@@ -3,6 +3,7 @@ package br.com.fatec.controllers;
 import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.Tab;
@@ -12,9 +13,11 @@ import javafx.scene.layout.HBox;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class LoginController {
+public class LoginController implements Initializable {
+
 
     @FXML
     private ResourceBundle resources;
@@ -71,6 +74,9 @@ public class LoginController {
     // MÉTODOS PARA TROCAR OS PANEIS DE CADASTRO
     // ============================================
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {}
+
     @FXML
     private void handleSignAluno() throws IOException {
         loadPane("/br/com/fatec/ui/SignUpAluno.fxml");
@@ -81,12 +87,13 @@ public class LoginController {
         loadPane("/br/com/fatec/ui/SignUpOrientador.fxml");
     }
 
+
     private void loadPane(String fxmlPath) throws IOException {
-        AnchorPane pane = FXMLLoader.load(getClass().getResource(fxmlPath));
+        AnchorPane pane = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(fxmlPath)));
         paneSignData.getChildren().clear();
         paneSignData.getChildren().add(pane);
 
-        // faz o novo painel preencher todo o espaço
+        //faz o novo painel preencher todo o espaço
         AnchorPane.setTopAnchor(pane, 0.0);
         AnchorPane.setRightAnchor(pane, 0.0);
         AnchorPane.setBottomAnchor(pane, 0.0);
@@ -114,5 +121,9 @@ public class LoginController {
         assert tabSign != null : "fx:id=\"tabSign\" was not injected: check your FXML file 'Login.fxml'.";
         assert txtFldPass != null : "fx:id=\"txtFldPass\" was not injected: check your FXML file 'Login.fxml'.";
         assert txtFldUser != null : "fx:id=\"txtFldUser\" was not injected: check your FXML file 'Login.fxml'.";
+    }
+
+    public void setUserInformation(String username) {
+
     }
 }

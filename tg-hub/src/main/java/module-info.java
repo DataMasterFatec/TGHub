@@ -13,6 +13,8 @@ module br.com.fatec {
 
     opens br.com.fatec.controllers to javafx.fxml;
     exports br.com.fatec.controllers;
+    exports br.com.fatec.dao;
+    opens br.com.fatec.dao to javafx.fxml;
 }
 
 
