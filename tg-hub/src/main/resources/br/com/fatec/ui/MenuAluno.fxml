@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane fx:id="splitPanelMenuAluno" dividerPositions="0.3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="200.0" styleClass="menu-lateral" stylesheets="@../css/MenuStyles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controllers.MenuAlunoController">
+  <items>
+    <AnchorPane fx:id="paneSuperiorMenuAluno">
+         <children>
+            <Label fx:id="painelAluno" layoutX="18.0" layoutY="14.0" text="Painel do Aluno" textFill="#ffd400">
+               <font>
+                  <Font name="CaskaydiaMono NFM SemiBold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="txtMenuAlunoNomeAluno" layoutX="11.0" layoutY="73.0" prefHeight="30.0" prefWidth="176.0" text="Aluno:" textFill="WHITE" />
+            <Label fx:id="txtMenuAlunoCursoAluno" layoutX="11.0" layoutY="103.0" prefHeight="30.0" prefWidth="176.0" text="Curso:" textFill="WHITE" />
+            <Label fx:id="txtMenuAlunoOrientadorAluno" layoutX="11.0" layoutY="133.0" prefHeight="30.0" prefWidth="176.0" text="Orientador:" textFill="WHITE" />
+         </children></AnchorPane>
+      <VBox fx:id="vboxMenuAluno" prefHeight="400.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <JFXButton fx:id="btnAlunoEntregas" layoutX="19.0" layoutY="37.0" prefHeight="40.0" prefWidth="160.0" text="Minhas Entregas" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <JFXButton fx:id="btnAlunoPortifolio" layoutX="19.0" layoutY="30.0" prefHeight="40.0" prefWidth="160.0" text="Portifólio" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <JFXButton fx:id="bntAlunoBaixarMD" layoutX="19.0" layoutY="30.0" prefHeight="40.0" prefWidth="160.0" text="Baixar Readme" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <JFXButton fx:id="btnAlunoConfigs" layoutX="19.0" layoutY="36.0" prefHeight="40.0" prefWidth="160.0" text="Configurações" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+  </items>
+</SplitPane>

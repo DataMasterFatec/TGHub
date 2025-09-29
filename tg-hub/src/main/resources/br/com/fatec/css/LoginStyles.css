@@ -1,0 +1,122 @@
+.left-anchor-pane {
+    -fx-background-color:
+        linear-gradient(
+            to bottom right,
+            #0f172a 0%,   /* Azul quase preto */
+            #1e3a8a 40%,  /* Azul profundo */
+            #2563eb 80%   /* Azul moderno */
+        );
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 20, 0.2, 0, 0);
+    -fx-background-radius: 0 20 20 0; /* canto arredondado à direita */
+}
+
+.right-anchor-pane {
+    -fx-background-color:
+        linear-gradient(
+            to bottom right,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 255, 255, 0.05) 100%
+        );
+    -fx-background-insets: 0;
+    -fx-background-radius: 20 0 0 20; /* canto arredondado à esquerda */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 15, 0.2, 0, 0);
+    -fx-border-color: rgba(255, 215, 0, 0.3); /* detalhe dourado translúcido */
+    -fx-border-width: 2;
+    -fx-border-radius: 20 0 0 20;
+}
+
+.right-anchor-pane-sign {
+    -fx-background-color:
+        linear-gradient(
+            to bottom right,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(255, 255, 255, 0.05) 100%
+        );
+    -fx-background-insets: 0;
+    -fx-background-radius: 20 0 0 20; /* canto arredondado à esquerda */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 15, 0.2, 0, 0);
+}
+
+/* ===========================
+   Estilo dos Botões
+   =========================== */
+
+/* Botão padrão (primário) */
+.button {
+    -fx-background-color:
+        linear-gradient(to bottom, #2563eb, #1e3a8a);
+    -fx-text-fill: white;
+    -fx-padding: 8 20 8 20;
+    -fx-background-radius: 8;
+    -fx-border-color: #FFD700; /* Dourado */
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.3, 0, 2);
+    -fx-transition: 0.3s;
+}
+
+/* Hover (quando o mouse passa por cima) */
+.button:hover {
+    -fx-background-color:
+        linear-gradient(to bottom, #1e40af, #1e3a8a);
+    -fx-border-color: #facc15; /* Dourado mais vivo */
+    -fx-effect: dropshadow(gaussian, rgba(255, 215, 0, 0.5), 10, 0.3, 0, 2);
+}
+
+/* Pressionado */
+.button:pressed {
+    -fx-background-color:
+        linear-gradient(to bottom, #1e3a8a, #0f172a);
+    -fx-translate-y: 1px;
+}
+
+/* ===========================
+   Botão Secundário (discreto)
+   =========================== */
+.button-secondary {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-text-fill: #f1f5f9; /* Cinza claro */
+    -fx-padding: 6 16 6 16;
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(255, 215, 0, 0.4);
+    -fx-border-width: 1.5;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 4, 0.3, 0, 1);
+}
+
+/* Hover do secundário */
+.button-secondary:hover {
+    -fx-background-color: rgba(225, 225, 225, 0.2);
+    -fx-border-color: #FFD700;
+}
+
+/* ===========================
+   Botão de Login (Destaque)
+   =========================== */
+.button-login {
+    -fx-background-color: linear-gradient(to bottom, #1e3a8a, #2563eb); /* Azul nobre */
+    -fx-text-fill: white;
+    -fx-padding: 12 28;
+    -fx-background-radius: 30; /* Mais arredondado que os outros */
+    -fx-border-color: #FFD700;
+    -fx-border-width: 2;
+    -fx-border-radius: 30;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 215, 0, 0.35), 12, 0.25, 0, 3);
+}
+
+/* Hover */
+.button-login:hover {
+    -fx-background-color: linear-gradient(to bottom, #2563eb, #1e40af);
+    -fx-effect: dropshadow(gaussian, rgba(255, 215, 0, 0.5), 14, 0.3, 0, 4);
+}
+
+/* Pressionado */
+.button-login:pressed {
+    -fx-background-color: linear-gradient(to bottom, #1e3a8a, #0f172a);
+    -fx-border-color: #eab308;
+    -fx-translate-y: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 6, 0.2, 0, 2);
+}

@@ -1,0 +1,118 @@
+/* Menu lateral */
+.menu-lateral {
+    -fx-background-color:
+        linear-gradient(
+            to bottom right,
+            #0f172a 0%,
+            #1e3a8a 40%,
+            #2563eb 80%
+        );
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 20, 0.2, 0, 0);
+}
+
+/* Título do Painel */
+#painelAluno {
+    -fx-text-fill: linear-gradient(to bottom, #FFD700 0%, #FFA500 50%, #FFE4B5 100%);
+    -fx-font-size: 24px;
+    -fx-font-family: 'Garamond', 'Georgia', 'Microsoft YaHei', '微软雅黑', serif;
+    -fx-font-weight: 700;
+    -fx-effect:
+        dropshadow(gaussian, #FFFFFF80, 1, 0.5, 0, 0),
+        innershadow(gaussian, #FFFFFF99, 2, 0.3, -1, -1),
+        dropshadow(gaussian, #0000001A, 2, 0.2, 1, 1),
+        innershadow(gaussian, #FFD70080, 2, 0.2, 0, 0);
+    -fx-padding: 5 0;
+}
+
+/* Botão estilo liquid glass */
+.menu-lateral .button {
+    /* Gradiente translúcido com tons suaves para simular vidro */
+    -fx-background-color:
+        linear-gradient(
+            from 0% 0% to 100% 100%,
+            rgba(255, 255, 255, 0.15) 0%,  /* Transparência leve */
+            rgba(200, 220, 255, 0.1) 50%,  /* Tom azulado sutil */
+            rgba(150, 180, 255, 0.05) 100%
+        ),
+        radial-gradient(
+            focus-angle 0deg,
+            focus-distance 0%,
+            center 50% 50%,
+            radius 60%,
+            rgba(255, 255, 255, 0.2) 0%,  /* Simula reflexo líquido */
+            rgba(200, 220, 255, 0.05) 70%
+        );
+    -fx-background-radius: 28;
+    -fx-border-color:
+        linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.4),  /* Brilho na borda superior */
+            rgba(200, 220, 255, 0.2)   /* Suaviza na inferior */
+        );
+    -fx-border-width: 1.2;
+    -fx-border-radius: 28;
+    -fx-text-fill: rgba(255, 255, 255, 0.9);  /* Texto com opacidade */
+    -fx-font-size: 12px;
+    -fx-font-family: 'Georgia', 'Microsoft YaHei', '微软雅黑', serif;
+    -fx-font-weight: 400;
+    /* Efeitos de sombra para profundidade e simulação de blur */
+    -fx-effect:
+        dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.3, 0, 0),  /* Sombra externa leve */
+        innershadow(gaussian, rgba(255, 255, 255, 0.3), 8, 0.2, 0, -2);  /* Reflexo interno */
+    -fx-padding: 12 32;
+    -fx-cursor: hand;
+    -fx-opacity: 0.85;
+    -fx-background-insets: 0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+/* Efeito de hover para simular interação líquida */
+.menu-lateral .button:hover {
+    -fx-background-color:
+        linear-gradient(
+            from 0% 0% to 100% 100%,
+            rgba(255, 255, 255, 0.2) 0%,
+            rgba(200, 220, 255, 0.15) 50%,
+            rgba(150, 180, 255, 0.1) 100%
+        ),
+        radial-gradient(
+            focus-angle 0deg,
+            focus-distance 0%,
+            center 50% 50%,
+            radius 70%,
+            rgba(255, 255, 255, 0.3) 0%,  /* Brilho mais forte */
+            rgba(200, 220, 255, 0.1) 70%
+        );
+    -fx-effect:
+        dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0.4, 1, 2),  /* Sombra mais pronunciada */
+        innershadow(gaussian, rgba(255, 255, 255, 0.4), 10, 0.3, 0, -3);
+    -fx-opacity: 1.0;
+    -fx-scale-x: 1.05;  /* Efeito de ampliação */
+    -fx-scale-y: 1.05;
+}
+
+/* Efeito de clique para feedback */
+.menu-lateral .button:pressed {
+    -fx-background-color:
+        linear-gradient(
+            from 0% 0% to 100% 100%,
+            rgba(150, 180, 255, 0.1) 0%,
+            rgba(100, 140, 255, 0.05) 50%,
+            rgba(50, 100, 255, 0.02) 100%
+        ),
+        radial-gradient(
+            focus-angle 0deg,
+            focus-distance 0%,
+            center 50% 50%,
+            radius 60%,
+            rgba(200, 220, 255, 0.2) 0%,
+            rgba(150, 180, 255, 0.05) 70%
+        );
+    -fx-effect:
+        dropshadow(gaussian, rgba(0, 0, 0, 0.15), 6, 0.2, 0, 0),
+        innershadow(gaussian, rgba(255, 255, 255, 0.2), 8, 0.2, 0, -1);
+    -fx-opacity: 0.8;
+    -fx-scale-x: 0.98;  /* Contração leve */
+    -fx-scale-y: 0.98;
+}
