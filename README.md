@@ -3,30 +3,32 @@
 <h3 align="center">2º Semestre BD - 2025 - 2</h3>
 
 ## Índice
-[💡 Título do Projeto](#-título-do-projeto) •
 [🎯 Objetivo](#-objetivo) •
-[🖼️ Backlog](#️-backlog-do-produto) •
+[🖼️ Backlog](#-backlog-do-produto) •
 [⏳ Cronograma](#-cronograma-de-evolução-do-projeto) •
 [📋 RF](#-requisitos-funcionais-rf) •
 [⚙️ RNF](#️-requisitos-não-funcionais-rnf) •
 [💻 Tecnologias](#-tecnologias-e-ferramentas-utilizadas) •
-[🧩 Branch](#-estratégia-de-branch) •
-[📌 Commits](#-padrão-de-commits) •
-[👥 Equipe](#-equipe)
-
-
-## 💡 Título do Projeto
-TGHub: Ciclo de Vida de Trabalhos de Graduação (TG) da modalidade Portfólio.
+[📁 Documentação](#-documentação-geral) •
+[👥 Equipe](#-equipe) •
 
 ## 🎯 Objetivo
-O objetivo do projeto visa solucionar as dores no processo de orientação e acompanhamento de Trabalhos de Graduação (TG) da modalidade Portfólio, criando um ecossistema centralizado para alunos, professores orientadores e professores de TG.
 
-A solução ataca os seguintes problemas identificados:
-* **Para o Aluno:** A comunicação com o orientador é falha e descentralizada, utilizando plataformas como e-mail e MS Teams, o que causa demora e perda de notificações.
-* **Para o Professor Orientador:** Há uma grande dificuldade em manter um histórico de correções e acessar versões anteriores dos trabalhos para cada aluno, exigindo controles manuais e dispersos.
-* **Para o Professor de TG:** É necessário um método eficiente para saber quais professores orientam quais alunos e o status de finalização de cada portfólio, processo que hoje depende de documentos físicos assinados.
+O **TGHUB** é uma aplicação desktop projetada para gerenciar, centralizar e otimizar o fluxo de desenvolvimento e orientação dos Trabalhos de Graduação (TG) na modalidade Portfólio. A plataforma foi concebida para resolver problemas específicos enfrentados por cada um dos envolvidos no processo acadêmico.
 
-O TGHub propõe uma plataforma única onde toda a interação, submissão de arquivos, feedback e acompanhamento do progresso acontecem de forma rastreável e organizada.
+### Para o Aluno:
+* **Dor:** Comunicação descentralizada e ineficiente com o orientador, resultando em perda de histórico e feedbacks dispersos em e-mails e outras plataformas.
+* **Solução do TGHUB:** Oferece um **canal de comunicação direto e contextualizado** para cada entrega do TG. Através de **formulários guiados**, o aluno constrói seu portfólio de acordo com o padrão exigido, submetendo versões que ficam registradas em um **histórico claro e acessível**, eliminando a ambiguidade e a perda de informações.
+
+### Para o Professor Orientador:
+* **Dor:** Dificuldade em acompanhar múltiplos alunos, manter um histórico de correções e acessar versões anteriores dos trabalhos, exigindo controles manuais e paralelos.
+* **Solução do TGHUB:** Disponibiliza um **dashboard de gerenciamento** que exibe o progresso de todos os orientandos em tempo real. O sistema organiza o **histórico de submissões e feedbacks** para cada entrega, permitindo a aprovação de versões e a **assinatura digital** das etapas concluídas, centralizando todo o processo de avaliação em um único local.
+
+### Para o Coordenador de TG:
+* **Dor:** Falta de visibilidade sobre o andamento dos TGs, os vínculos entre alunos e orientadores, e a dependência de processos manuais para validar a finalização dos trabalhos.
+* **Solução do TGHUB:** Fornece **dashboards de supervisão** que permitem ao Coordenador auditar o andamento de qualquer trabalho em modo de leitura, visualizando o histórico de interações e o status de cada entrega. A plataforma automatiza a verificação de quais portfólios estão completos e assinados, agilizando o processo de encerramento do semestre.
+
+Em essência, o TGHUB substitui o fluxo fragmentado de e-mails, trocas de arquivos e controles manuais por uma plataforma única e estruturada, garantindo que o processo de orientação seja mais eficiente, transparente e rastreável para todos os envolvidos.
 
 ## 🖼️ Backlog do Produto
 O backlog completo do produto, contendo os épicos e as user stories para o desenvolvimento do sistema, pode ser encontrado no seguinte arquivo:
@@ -36,11 +38,12 @@ O backlog completo do produto, contendo os épicos e as user stories para o dese
 ## ⏳ Cronograma de Evolução do Projeto
 O desenvolvimento do projeto será realizado de forma incremental ao longo de três Sprints, cada uma representando uma fase do projeto. Ao final de cada Sprint, um incremento funcional do produto será apresentado.
 
-| Sprint | Período da Sprint | Objetivo Principal (Sprint Goal) |Status| Relatório | 
-| :--- | :--- | :--- | :--- | :--- |
-| **1** | 08/09/2025 - 28/09/2025 | Foco em documentação, modelagem e estrutura do projeto. Serão definidos os casos de uso, o modelo de dados (MER e lógico), a arquitetura do sistema e as prioridades do backlog. |✅ |[Sprint 1](/doc/backlogs/backlog_sprint1.md) |
-| **2** | 06/10/2025 - 26/10/2025 | Foco na implementação do núcleo de usuários e do banco de dados. Serão desenvolvidas as funcionalidades de registro/login para todos os perfis e as telas pós-login (dashboards) com dados dinâmicos, além dos formulários de preenchimento/visualização de TG para cada entrega e para a versão atual do documento final. | 🔄 |[Sprint 2](/docs/backlogs/backlog_sprint2.md) |
-| **3** | 03/11/2025 - 23/11/2025 | Foco na implementação da funcionalidade de interação (chat). Será desenvolvida a mecânica troca de mensagens, avaliação, notificações e assinatura das entregas. | 🔄 | -|
+
+| Sprint | Período da Sprint | Objetivo Principal (Sprint Goal) |Status| Detalhamento da Sprint | Incremento Entregue |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | 08/09/2025 - 28/09/2025 | Foco em documentação, modelagem e estrutura do projeto. Serão definidos os casos de uso, o modelo de dados (MER e lógico), a arquitetura do sistema e as prioridades do backlog. |✅ |[Backlog](/docs/backlogs/backlog_sprint1.md) [Burndown](docs/burndown/relatorioSprintUmTGHub.png)| [Entrega](docs/wireframes/interface_login.gif) |
+| **2** | 06/10/2025 - 26/10/2025 | Foco na implementação do núcleo de usuários e do banco de dados. Serão desenvolvidas as funcionalidades de registro/login para todos os perfis e as telas pós-login (dashboards) com dados dinâmicos, além dos formulários de preenchimento/visualização de TG para cada entrega e para a versão atual do documento final. | 🔄 |[Backlog da Sprint 2](/docs/backlogs/backlog_sprint2.md) | |
+| **3** | 03/11/2025 - 23/11/2025 | Foco na implementação da funcionalidade de interação (chat). Será desenvolvida a mecânica troca de mensagens, avaliação, notificações e assinatura das entregas. | 🔄 | -| |
 
 ## 📋 Requisitos Funcionais (RF)
 
@@ -147,23 +150,40 @@ O código deve ser modular e documentado, facilitando atualizações e correçõ
 | Maven | <img src="https://icons.iconarchive.com/icons/simpleicons-team/simple/256/apache-maven-icon.png" alt="Maven" width="48"> | Ferramenta de automação de compilação (*build*) e gerenciamento de dependências, responsável por baixar as bibliotecas e empacotar o projeto.|
 | Git | ![Git](https://img.icons8.com/color/48/git.png) | Sistema de controle de versão do código-fonte. |
 | Jira | ![Jira](https://img.icons8.com/color/48/jira.png)|Gerenciamento de projeto e rastreamento de tarefas.|
+ 
+## 📁 [Documentação Geral](docs/)
 
-## 🧩 Estratégia de Branch
+### 🏃‍ Definição de Pronto (Definition of Done - DoD)
+Uma User Story é considerada **"Pronta"** quando:
+
+* A funcionalidade foi implementada (interface e lógica de negócio).
+* Os dados são persistidos corretamente no banco de dados.
+* A funcionalidade foi testada pela equipe de desenvolvimento.
+* O Product Owner (P.O.) validou que a entrega atende aos critérios de aceite e agrega o valor descrito na história.
+
+### 🏆 Definição de Preparado (Definition of Ready - DoR)
+Uma User Story é considerada **"Preparada"** para ser puxada para uma Sprint quando:
+
+* A história é clara, concisa e foi compreendida por toda a equipe de desenvolvimento.
+* Os critérios de aceite foram definidos e são testáveis, deixando claro como a funcionalidade será validada.
+* Quaisquer dependências (técnicas ou de outras histórias) foram identificadas e resolvidas ou planejadas.
+* A equipe de desenvolvimento estimou o esforço necessário para completar a história.
+* A história é pequena o suficiente para ser concluída dentro de uma única Sprint.
+* O Product Owner (P.O.) validou a história, garantindo que ela agrega valor ao produto.
+
+### 🧩 Estratégia de Branch
 * `main` – versão estável
 * `Sprint-x` – versão de desenvolvimento
 
-## 📌 Padrão de Commits
-* Neste projeto usamos o padrão Conventional Commits para manter o histórico organizado e facilitar a colaboração. 
-[Ver detalhes](docs/processos/padrao_commit.md)
+[Diagrama de Arquitetura do Sistema](docs/tecnica/Diagrama%20de%20Arquitetura%20do%20Sistema.png) 
 
-## Documentos
+[Wireflow da Aplicação](docs/wireframes/Wireflow.png)
+
 [Casos de uso](docs/use_cases/CasosDeUso.md)
 
-[Tecnica](docs/tecnica) 
+[Padrão Commit do Projeto](docs/processos/padrao_commit.md)
 
-[Wireframe](docs/wireframes/Wireflow.png)
 
-[Burndown](docs/burndown/relatorioSprintUmTGHub.png)
 
 ## 👥 Equipe
 | Foto | Nome Completo | Papel | GitHub/LinkedIn |
